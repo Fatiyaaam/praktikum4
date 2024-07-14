@@ -1,4 +1,8 @@
 <?php 
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 if (isset($_GET['logout'])) {
     session_unset();
     session_destroy();
@@ -31,7 +35,7 @@ if (isset($_SESSION['role'])) {
                 <img src="dist/img/avatar.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block"><?= isset($_SESSION['name']) ? $_SESSION['name'] : ''; ?></a>
+                <a href="#" class="d-block">Fatiya Muthmainnah</a>
             </div>
         </div>
         <div class="form-inline">

@@ -2,7 +2,7 @@
     <div class="float-right d-none d-sm-block">
         <b>Version</b> 3.2.0
     </div>
-    <strong>Copyright &copy; 2024 <a href="#">Risca Marcella Jhesica 0110123010</a>.</strong> Terimakasih ka irsal! (Asdos PW2)
+    <strong>Copyright &copy; 2024 <a href="#">Fatiya Muthmainnah</a>.</strong> Terimakasih ka irsal!
 </footer>
 
 <aside class="control-sidebar control-sidebar-dark">

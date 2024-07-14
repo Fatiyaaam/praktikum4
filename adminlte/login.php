@@ -4,10 +4,10 @@ session_start();
 $usernameErr = $passwordErr = $authenticationErr = '';
 $username = $password = '';
 $users = [
-    ['username' => 'admin', 'name' => 'Risca Marcella Jhesica', 'password' => 'admin123', 'role' => 'Admin'],
-    ['username' => 'ti123', 'name' => 'Risca Marcella Jhesica', 'password' => 'ti123', 'role' => 'Teknik Informatika'],
-    ['username' => 'si123', 'name' => 'Risca Marcella Jhesica', 'password' => 'si123', 'role' => 'Sistem Informasi'],
-    ['username' => 'bd123', 'name' => 'Risca Marcella Jhesica', 'password' => 'bd123', 'role' => 'Bisnis Digital'],
+    ['username' => 'admin', 'name' => 'Fatiya Muthmainnah', 'password' => 'admin123', 'role' => 'Admin'],
+    ['username' => 'ti123', 'name' => 'Fatiya Muthmainnah', 'password' => 'ti123', 'role' => 'Teknik Informatika'],
+    ['username' => 'si123', 'name' => 'Fatiya Muthmainnah', 'password' => 'si123', 'role' => 'Sistem Informasi'],
+    ['username' => 'bd123', 'name' => 'Fatiya Muthmainnah', 'password' => 'bd123', 'role' => 'Bisnis Digital'],
 ];
 
 function test_input($data) {
